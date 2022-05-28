@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    gap: 3px 3px;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    justify-content: center;
+}
+
+.grid-item-counter{
+    color: white;
+}
+
+#white{
+    background-color: white;
+}
+
+#black{
+    background-color: rgb(166, 164, 170);
+}
+
+.grid-item-letter{
+    background-color: gray;
+}
+
+.grid-item-number{
+    background-color: gray;
+}
+
+.grid-item-counter{
+    background-color: rgb(59, 56, 56);
+}
+
+.header-text{
+    text-align: center;
+}
